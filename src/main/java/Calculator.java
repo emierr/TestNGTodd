@@ -3,9 +3,10 @@ import java.util.Arrays;
 public class Calculator {
 
     public static void main(String[] args) {
-        int addResult = add(5, 3);
-        int subtractResult = subtract(5, 3);
-        System.out.printf("5 + 3 = %s%n5 - 3 = %s", addResult, subtractResult);
+        int a = 5;
+        int b = 3;
+        System.out.println(a + " + " + b + " = " + add(a, b));
+        System.out.println(a + " - " + b + " = " + subtract(a, b));
     }
 
     public static int add(int number1, int number2) {
